@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-import Friendreq from "../models/Friendreq.js";
+import Friendreq from "../models/FriendReq.js";
 
 // 📌 Get a list of recommended users (excluding self, current friends, and only onboarded users)
 export const getRecommendedUsers = async (req, res) => {
